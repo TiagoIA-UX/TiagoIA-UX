@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Olá, eu sou o Tiago
 
-<!--
-**TiagoIA-UX/TiagoIA-UX** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Sou desenvolvedor focado em **criar soluções práticas usando Inteligência Artificial**.
+Meu objetivo é entregar projetos rápidos, funcionais e que gerem resultado real.
 
-Here are some ideas to get you started:
+## 🚀 O que eu faço
+- Sites profissionais para negócios
+- Automações com IA
+- Ferramentas web simples e eficientes
+- MVPs rápidos para validação de ideias
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tecnologias
+- JavaScript / Node.js
+- Python
+- HTML / CSS
+- IA (OpenAI, automações, prompts)
+- GitHub + Cursor
+
+## 📌 Projetos em destaque
+➡️ Veja abaixo meus principais projetos fixados.
+
+## 📫 Contato
+- GitHub: https://github.com/TiagoIA-UX
