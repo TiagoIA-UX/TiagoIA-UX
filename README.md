@@ -1,37 +1,67 @@
-# 👋 Olá, eu sou Tiago Rocha
+# Tiago Rocha
 
-Sou criador de projetos digitais e MVPs experimentais desenvolvidos com apoio de Inteligência Artificial como motor principal de produção.
+Construo produtos digitais completos — do conceito ao deploy em produção — usando IA como copiloto de engenharia.
 
-## 🧠 Meu posicionamento
-Não sou desenvolvedor tradicional.
-Utilizo IA para criar, testar e publicar projetos em escala, focando em validação rápida de ideias, aprendizado contínuo e visão de produto.
+---
 
-## 🚀 O que você vai encontrar aqui
-- MVPs e protótipos funcionais
-- Experimentos com IA aplicada
-- Ferramentas em estágio inicial
-- Projetos abertos para evolução técnica
+## O que eu faço
 
-## 🤝 Busco parcerias
-- 👨‍💻 Desenvolvedores interessados em evoluir tecnicamente projetos reais
-- 🤲 Patrocinadores que apoiem experimentação, aprendizado e continuidade
-- 🌱 Colaborações de longo prazo baseadas em transparência
+Crio aplicações web full-stack reais, publicadas e funcionais. Meus projetos vão além de protótipos: têm autenticação, pagamentos, integrações com APIs externas, deploy automatizado e arquitetura para múltiplos clientes.
 
-## ⚠️ Aviso importante
-Os projetos aqui não são produtos finais.
-São experimentos e MVPs desenvolvidos com apoio de IA, abertos à melhoria técnica e validação de mercado.
+## Stack principal
 
-## 📬 Contato
-Se quiser colaborar, conversar ou apoiar:
-- GitHub: siga ou abra uma issue
-- Outras formas de contato podem ser adicionadas futuramente
+| Camada | Tecnologias |
+|--------|-------------|
+| **Frontend** | Next.js · React · TypeScript · Tailwind CSS · Radix UI |
+| **Backend** | Next.js API Routes · Node.js · Supabase · Prisma · Neon |
+| **Auth** | Supabase Auth (Google OAuth) · JWT · Middleware de sessão |
+| **Pagamentos** | Mercado Pago (checkout, webhook, sandbox/produção) |
+| **IA** | Groq (LLaMA) · OpenAI · Geração automática de conteúdo |
+| **Integrações** | Google Calendar API · WhatsApp Business · Resend Email |
+| **Infra** | Vercel · GitHub Actions CI · Rate Limiting · SEO técnico |
+| **Qualidade** | ESLint · Testes automatizados · Scripts de validação (`ship:all`) |
+| **Estado** | Zustand · React Hook Form · Zod |
 
-- ## 📬 Contato
+## Projetos em destaque
 
-Se você é desenvolvedor interessado em colaborar ou deseja apoiar os projetos:
+### [Cardápio Digital](https://github.com/TiagoIA-UX/Card-pio-Digital)
 
-- 📧 Email: zairyx.ai@gmail.com  
-- 📱 WhatsApp: +55 12 99688-7993  
+Plataforma SaaS multi-tenant para restaurantes criarem cardápios digitais profissionais com pedidos via WhatsApp.
 
-Sinta-se à vontade para entrar em contato ou abrir uma issue em qualquer repositório.
+- **Arquitetura multi-tenant** com isolamento por tenant (slug único, banco compartilhado)
+- **Editor visual** com preview em tempo real e edição inline de textos e produtos
+- **7 templates** responsivos com personalização de cores, fontes e conteúdo
+- **Checkout completo** com Mercado Pago (PIX + cartão), onboarding automatizado e provisionamento
+- **Painel administrativo** com métricas, gestão de produtos/categorias e assinaturas
+- **Middleware de autenticação** centralizado com rate limiting e proteção de rotas
+- **Pipeline de qualidade**: doctor → lint → testes → simulação de onboarding (`ship:all`)
+- **SEO técnico**: sitemap, robots.txt, meta tags dinâmicas, Schema.org
 
+### [Blog Terapia — Elisa Rietjens](https://github.com/TiagoIA-UX/blog-terapia-elisa-rietjens)
+
+Sistema completo de automação para terapeutas: blog com geração de conteúdo por IA, chatbot, agendamento e pagamentos.
+
+- **Geração automática de conteúdo** via Groq/LLaMA com lote diário configurável
+- **Chatbot de qualificação** integrado para captura de leads
+- **Agendamento online** com Google Calendar API (disponibilidade, reserva, cancelamento, reagendamento)
+- **Checkout** com Mercado Pago e webhooks de confirmação
+- **Publicação multi-canal**: cada artigo gera conteúdo para Instagram, Facebook, LinkedIn, X e TikTok
+- **Persistência híbrida**: Prisma + Neon em produção, fallback local em dev
+- **CI/CD**: GitHub Actions, validação de ambiente, build strict
+
+## Competências demonstradas
+
+- **Produto**: visão end-to-end, de ideia a deploy em produção com domínio próprio
+- **Engenharia**: arquitetura limpa, multi-tenant, testes, validação automatizada
+- **Integrações**: pagamentos, OAuth, calendário, IA generativa, mensageria
+- **Operações**: deploy Vercel, CI, monitoramento, scripts de diagnóstico
+- **IA como ferramenta de produção**: uso de IA para acelerar o desenvolvimento com código auditável e versionado
+
+## Contato
+
+- 📧 zairyx.ai@gmail.com
+- 📱 +55 12 99688-7993
+
+---
+
+*Projetos em evolução contínua. Código aberto e pronto para contribuição.*
