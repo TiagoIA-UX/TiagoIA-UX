@@ -1,3 +1,7 @@
+> **© 2026 Tiago Aureliano da Rocha — Lex Rocha, prestação de serviços (CNPJ 61.699.939/0001-80).**  
+> Todos os direitos reservados. Software proprietário — ver [LICENSE](./LICENSE).  
+> Produto: **TiagoIA-UX (perfil)** · Repositório: `TiagoIA-UX`
+
 # Olá, eu sou o Tiago Aureliano Rocha 👋
 
 **Software Engineer | Solopreneur | Especialista em SaaS & IA**
